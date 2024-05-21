@@ -21,11 +21,11 @@ const Contact = () => {
                             <input type="hidden" name="access_key" value="540fe866-1f06-48ae-be4e-69f7b16ebe9b" />
 
                             <label for="name">Full Name*</label><br />
-                            <input type="text" placeholder="Enter your name..." /><br />
-                            <label for="ename">Email*</label><br />
-                            <input type="email" placeholder="Enter your Email..." /><br />
+                            <input type="text" name='name' required placeholder="Enter your name..." /><br />
+                            <label for="Email" >Email*</label><br />
+                            <input type="email" name='email' required placeholder="Enter your Email..." /><br />
                             <label for="mname">Message*</label><br />
-                            <textarea name="mname" id="mess" cols="53" rows="6" placeholder="Enter your message..."></textarea>
+                            <textarea name="mname" id="mess" cols="53" rows="6" required placeholder="Enter your message..."></textarea>
 
 
                         </div>
