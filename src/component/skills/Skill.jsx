@@ -26,7 +26,6 @@ const Skill = () => {
                         <li>My SQL</li>
                         <li>C++</li>
                         <li>OPP</li>
-                        <li></li>
                         </div>
                     </div>
                     <div className="skill-design">
