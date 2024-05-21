@@ -108,7 +108,11 @@ textarea{
         width: 80%;
     }
 }
-
+.whatsapp-icon{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
 @media (max-width:500px) {
     #con-img {
         display: none;
@@ -122,5 +126,8 @@ textarea{
     }
     .con-d-3 img{
         width: 40%;
+    }
+    .whatsapp-icon img{
+       width: 60px;
     }
 }
