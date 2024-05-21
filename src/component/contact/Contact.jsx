@@ -18,12 +18,16 @@ const Contact = () => {
                             <div className="con-d-2">
                                 <img src={c2} alt="" width={'150px'} height={'300px'} />
                             </div>
-                            <input type="hidden" name="access_key" value="540fe866-1f06-48ae-be4e-69f7b16ebe9b" />
 
-                            <label for="name">Full Name*</label><br />
-                            <input type="text" name='name' required placeholder="Enter your name..." /><br />
-                            <label for="Email" >Email*</label><br />
-                            <input type="email" name='email' required placeholder="Enter your Email..." /><br />
+                            <input type="hidden" name="access_key" value="540fe866-1f06-48ae-be4e-69f7b16ebe9b" />
+                            <div className="name">
+                                <label for="name">Full Name*</label><br />
+                                <input type="text" name='name' required placeholder="Enter your name..." /><br />
+                            </div>
+                            <div className="email">
+                                <label for="Email" >Email*</label><br />
+                                <input type="email" name='email' required placeholder="Enter your Email..." /><br />
+                            </div>
                             <label for="mname">Message*</label><br />
                             <textarea name="mname" id="mess" cols="53" rows="6" required placeholder="Enter your message..."></textarea>
 
@@ -39,7 +43,7 @@ const Contact = () => {
                         </div>
                     </form>
                     <div className="whatsapp-icon">
-                      <a href='https://wa.me/03090444094'><img src={whatsapp} alt="" width={'110px'}/></a>
+                        <a href='https://wa.me/03090444094'><img src={whatsapp} alt="" width={'110px'} /></a>
                     </div>
                 </div>
             </section>
