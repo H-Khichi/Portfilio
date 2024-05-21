@@ -1,0 +1,129 @@
+
+.contact_sec{
+    background:url('./../../images/c4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#con-img{
+    position: absolute;
+    width: 130px;
+    top: 80px;
+    left: 100px;
+}
+
+.contact_title h1{
+    font-size: 130px;
+    color: rgb(245, 245, 245);
+    padding-bottom: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.con-d-2{
+    position: absolute;
+    top: 40%;
+    right: 0px;
+}
+.input{
+   font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    padding-left: 300px;
+    margin: auto;
+}
+.input label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(245, 245, 245);
+    
+}
+.input input{
+    width: 80%;
+    height: 70px;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #190131;
+    border: 2px solid gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: rgb(245, 245, 245);
+
+}
+textarea{
+    width: 80%;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #160229;
+    border: 2px solid gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;   
+}
+#submit_btn{
+    border: 2px solid gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #230046;
+    color: white;
+    padding: 15px 40px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    
+}
+.contact_btn{
+    position: relative;
+    text-align: center;
+}
+.con-d-3{
+    position: absolute;
+    top: 50px; 
+    left: 400px;
+}
+@media (max-width:769px){
+    .input{
+         padding: 30px;
+     }
+     .contact_title h1{
+        font-size: 80px;
+     }
+     #submit_btn{
+        padding: 15px 40px;
+        margin-left: -70px;
+        
+    }
+    #con-img{
+        top: 40px;
+        left: 30px;
+        width: 60px;
+    }
+    .con-d-3 {
+        top: 12px;
+        left: 97px;
+    }
+    .con-d-3 img{
+        width: 80%;
+    }
+}
+.whatsapp-icon{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+@media (max-width:500px) {
+    #con-img {
+        display: none;
+    }
+    .con-d-2{
+        display: none;
+    }
+    .con-d-3 {
+        top: 14px;
+        left: 244px;
+    }
+    .con-d-3 img{
+        width: 40%;
+    }
+}

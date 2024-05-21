@@ -1,0 +1,83 @@
+.about{
+    background: url('./../../images/a1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 80px;
+    color: white;
+}
+.ab-row{
+    width: 98%;
+}
+.about-left {
+    width: 100%;
+    padding: 40px;
+    position: relative;
+}
+.about-left h1{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+font-size: 100px;
+    font-weight: 700;
+    top:50px;
+    right: 0px;
+    z-index: 100;
+}
+.about-desgn{
+    position: absolute;
+    right: 259px;
+    top: 133px;
+}
+#ab-3{
+    position: absolute;
+    left: 9rem;
+    bottom: 100px;
+}
+.about-right{
+    width: 90%;
+    padding: 40px;
+    padding-top: 70px;
+    align-items: center;
+    margin-top: 150px;
+    font-family: emoji;
+}
+.about-right p{
+    color: gray;
+}
+.about-btn{
+        margin-top: 40px;
+}
+.ab-design{
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    text-align: end;
+}
+@media (max-width:768px) {
+    .about-left {
+        width: 80%;
+        padding: 40px;
+        position: relative;
+    }
+    .about-left h1{
+    font-size: 60px;
+    }
+    .about-desgn{
+        top: 600px;
+    }
+    .about-right{
+        margin-top: 50px;
+    }
+    .ab-design img{
+       height: 95px;
+    }
+    #ab-3{
+        left: 33%;
+    }
+}
+@media (max-width:500px) {
+    .about-desgn{
+        top: 405px;
+        right: 100px;
+    }
+}

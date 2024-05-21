@@ -1,0 +1,40 @@
+.skill{
+    background: url('./../../images/s1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+.skill-title h1{
+    padding: 200px 100px 40px 100px;
+    font-size: 130px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+.skill-left, .skill-right{
+    margin: 80px 60px 180px 100px;
+    font-size: 2rem;
+    font-family: emoji;
+    color: gray;
+}
+.skill-design{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+@media (max-width:768px) {
+    .skill-title h1{
+        padding: 60px 30px 20px 50px;
+        font-size: 60px;
+    }
+    .skill-left{
+        margin: 80px 30px 0px 70px;
+        font-size: 2rem;
+    }
+    .skill-right{
+        margin: 0px 30px 180px 70px;
+        font-size: 2rem;
+    }
+
+}
