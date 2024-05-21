@@ -22,9 +22,13 @@ const About = () => {
                             <div className="about-desgn">
                                     <img src={a5} alt="" />
                                 </div>
-                                <p>Hi, I'm Huzaifa Umer, a front-end developer with 6 months of experience at Aroux Tech. I specialize
-                                    in creating engaging and functional user interfaces. Excited to contribute my skills and knowledge
-                                    to future projects!
+                                <p>Hi, I'm Huzaifa Umer, A front-end
+developer with 1 year of experience at
+Auroxa Tech. I specialize in creating
+engaging and functional user interfaces.
+Excited to contribute my skills and
+knowledge to future projects!
+
                                 </p>
                                 <button className="about-btn">Contact me</button>
                             </div>
