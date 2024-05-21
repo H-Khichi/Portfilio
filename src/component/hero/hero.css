@@ -84,15 +84,13 @@
  
 .hero_right_img img:nth-child(1){
     position: absolute;
-    bottom: -1px;
-    left: 50px;
-    width: 80%;
+    bottom: -100px;
+    width: 90%;
     z-index: 1;
 } 
 .hero_right_img img:nth-child(2){
     position: absolute;
-    bottom: -80px;
-    right: 40px;
+    bottom: -100px;
     width: 90%;
     z-index: 0;
 } 
@@ -135,7 +133,6 @@
     }
     .hero_right_img img:nth-child(1) {
         width: 70%;
-        left: 70px;
     }
     .hero_right_img img:nth-child(2) {
         right: 20px;
