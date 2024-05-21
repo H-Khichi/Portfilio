@@ -128,6 +128,7 @@
 @media (max-width: 550px) {
     
     .hero-right {
+        margin:10px;
         height: 500px;
     }
   
