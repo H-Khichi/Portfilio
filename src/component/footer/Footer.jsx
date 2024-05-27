@@ -19,9 +19,9 @@ const Footer = () => {
                             </div>
                             <div className="col-md-6">
                                 <div className="social">
-                                  <a href="https://www.linkedin.com/in/huzaifa-umer-01b324300/" target='_blank'><FaLinkedin  style={{color:'#ff00ff', width:'70px', height:'70px'}}/></a>
-                                  <a href="https://www.facebook.com/profile.php?id=100037410160995" target='_blank'><FaFacebookSquare style={{color:'#ff00ff', width:'70px', height:'70px', marginLeft:'5px'}}/></a>
-                                  <a href="https://www.instagram.com/h__khichi?igsh=MXBkbnAweWNnanM5aw%3D%3D&utm_source=qr" target='_blank'><FaInstagramSquare style={{color:'#ff00ff', width:'70px', height:'70px', marginLeft:'5px'}}/></a>  
+                                  <a href="https://www.linkedin.com/in/huzaifa-umer-01b324300/" ><FaLinkedin  style={{color:'#ff00ff', width:'70px', height:'70px'}}/></a>
+                                  <a href="https://www.facebook.com/profile.php?id=100037410160995" ><FaFacebookSquare style={{color:'#ff00ff', width:'70px', height:'70px', marginLeft:'5px'}}/></a>
+                                  <a href="https://www.instagram.com/h__khichi?igsh=MXBkbnAweWNnanM5aw%3D%3D&utm_source=qr" ><FaInstagramSquare style={{color:'#ff00ff', width:'70px', height:'70px', marginLeft:'5px'}}/></a>  
                                     
                                     
                                 </div>
