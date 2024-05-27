@@ -18,7 +18,7 @@ import './navbar.css'
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about_me">About</a></li>
                         <li><a href="#skills">skills</a></li>
-                        <li><a href="#my_projects">My Projects</a></li>
+                        <li><a href="#project">My Projects</a></li>
                         <li><a href="#contact_me">Contact</a></li>
                     </ul>
                 </div>
