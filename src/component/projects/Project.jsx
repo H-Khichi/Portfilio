@@ -12,7 +12,7 @@ import p8 from './../../images/8.png'
 const Project = () => {
     return (
         <>
-            <section>
+            <section id='project'>
                 <div className="project">
                     <div className="project-title">
                         <h1>My Projects</h1>
