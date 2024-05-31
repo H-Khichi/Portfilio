@@ -52,7 +52,7 @@ const Project = () => {
                         <div className="project-odd">
                             <div className="row">
                                 <div className="col-md-6 order-2 order-md-1 mt-sm-3 ">
-                                    <h1>Stics</h1>
+                                    <h1>Super Tech Institute of  <br />computer Science (Clone)</h1>
                                 </div>
                                 <div className="col-md-6 order-1 order-md-2">
                                     <img src={p2} alt="" width={'90%'} />
