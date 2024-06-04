@@ -5,6 +5,7 @@
     position: relative;
     color: white;
     overflow: hidden;
+    height: auto;
 }
 .skill-title h1{
     padding: 200px 100px 40px 100px;
@@ -28,13 +29,23 @@
         padding: 60px 30px 20px 50px;
         font-size: 60px;
     }
-    .skill-left{
-        margin: 80px 30px 0px 70px;
-        font-size: 2rem;
+    
+    .skill-imgs{
+        height: auto!important;
+        padding-bottom: 50px;
     }
-    .skill-right{
-        margin: 0px 30px 180px 70px;
-        font-size: 2rem;
+    .skil-img:last-child{
+        padding-bottom: 50px;
     }
-
+}
+.skill-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 60vh;
+    padding-top: 40px;
+}
+.skil-img{
+    flex: 0 0 10%;
+    margin: 10px 0px;
 }

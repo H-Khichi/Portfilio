@@ -1,42 +1,56 @@
 import React from 'react'
 import './skill.css'
 import s2 from '../../images/s2.png'
-
+import skill1 from '../../images/html.png'
+import skill2 from '../../images/css.png'
+import skill3 from '../../images/js.png'
+import skill4 from '../../images/react.png'
+import skill5 from '../../images/mgdb.png'
+import skill6 from '../../images/sql.png'
+import skill7 from '../../images/c++.png'
 const Skill = () => {
-  return (
-    <>
-        <section >
-            <div className="skill" id='skills'>
-                <div className="skill-title">
-                    <h1>My Skills</h1>
-                </div>
-                <div className="row ab-row">
-                    <div className="col-md-6">
-                       <div className="skill-left">
-                       <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                        <li>Javascript</li>
-                        <li>React</li>
-                       </div>
+    return (
+        <>
+            <section >
+                <div className="skill" id='skills'>
+                    <div className="skill-title">
+                        <h1>My Skills</h1>
                     </div>
-                    <div className="col-md-6">
-                        <div className="skill-right">
-                        <li>MongoDB</li>
-                        <li>My SQL</li>
-                        <li>C++</li>
-                        <li>OPP</li>
+                    <div className="container">
+                       
+                            <div className="skill-imgs mt-4 mx-4">
+                                <div className="skil-img">
+                                    <img src={skill1} alt="" width={'100px'} />
+                                </div>
+                                <div className="skil-img">
+                                    <img src={skill2} alt="" width={'130px'}  style={{marginTop:'-8px', marginRight:'10px'}}/>
+                                </div>
+                                <div className="skil-img">
+                                    <img src={skill3} alt="" width={'100px'} />
+                                </div>
+                                <div className="skil-img">
+                                    <img src={skill4} alt="" width={'100px'} />
+                                </div>
+                                <div className="skil-img">
+                                <img src={skill5} alt="" width={'100px'} />
+                                </div>
+                                <div className="skil-img">
+                                <img src={skill6} alt="" width={'100px'} />
+                                </div>
+                                <div className="skil-img">
+                                <img src={skill7} alt="" width={'100px'} />
+                                </div>
+
+
+                            <div className="skill-design">
+                                <img src={s2} alt="" width={'100px'} />
+                            </div>
                         </div>
                     </div>
-                    <div className="skill-design">
-                    <img src={s2} alt="" width={'100px'} />
                 </div>
-                </div>
-               
-            </div>
-        </section>
-    </>
-  )
+            </section>
+        </>
+    )
 }
 
 export default Skill
