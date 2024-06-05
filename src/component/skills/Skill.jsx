@@ -8,6 +8,7 @@ import skill4 from '../../images/react.png'
 import skill5 from '../../images/mgdb.png'
 import skill6 from '../../images/sql.png'
 import skill7 from '../../images/c++.png'
+import skill8 from '../../images/nodejs.png'
 const Skill = () => {
     return (
         <>
@@ -39,6 +40,9 @@ const Skill = () => {
                                 </div>
                                 <div className="skil-img">
                                 <img src={skill7} alt="" width={'100px'} />
+                                </div>
+                                <div className="skil-img">
+                                <img src={skill8} alt="" width={'100px'} />
                                 </div>
 
 
